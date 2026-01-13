@@ -1,6 +1,5 @@
 {
-      "name": "discord-user-lookup",
-        "version": "1.0.0",
-          "private": true
-          }
+  "name": "discord-user-lookup",
+  "version": "1.0.0",
+  "private": true
 }
