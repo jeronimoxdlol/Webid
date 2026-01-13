@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Discord User Lookup</title>
+        <link rel="stylesheet" href="styles.css"/>
+        </head>
+        <body>
+
+          <div class="container">
+              <h1>Discord User Lookup</h1>
+                  <p>Buscar usuario por ID (información pública)</p>
+
+                      <div class="search-box">
+                            <input type="text" id="userId" placeholder="Discord User ID">
+                                  <button onclick="searchUser()">Buscar</button>
+                                      </div>
+
+                                          <div id="result" class="card hidden">
+                                                <img id="avatar" />
+                                                      <h2 id="username"></h2>
+                                                            <p><strong>ID:</strong> <span id="id"></span></p>
+                                                                  <p><strong>Cuenta creada:</strong> <span id="created"></span></p>
+                                                                      </div>
+                                                                        </div>
+
+                                                                          <script src="app.js"></script>
+                                                                          </body>
+                                                                          </html>
